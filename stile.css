@@ -1,0 +1,135 @@
+
+.profile {
+	
+	font-family : Arial, sans-serif;
+	position: relative;
+	
+}
+
+.profile  img {
+	opacity: 0.6;
+}
+
+
+.profile p {
+	color: white;
+	position: absolute;
+	top: 100px;
+	font-size: 2.8em;
+	text-align: center;
+	font-weight: normal;
+	width: 100%;
+
+}
+
+.reward {
+	position: absolute;
+	top: 10px;
+	left: 5%;
+	margin: auto;
+	width:90%;
+	text-align: center;
+	background: white;
+	border-radius: 5px;
+	opacity: 0.8;
+	font-size: 1.5em;
+	padding: 10px 25px;
+	box-sizing: border-box;
+
+}
+
+.dead {
+	position: absolute;
+  	top: 50%;
+  	left: 50%;
+  	transform: translate(-50%, -50%);
+	margin: auto;
+	width:90%;
+	text-align: center;
+	border-radius: 5px;
+	opacity: 0.8;
+	font-size: 3em;
+	padding: 10px 25px;
+	
+}
+
+
+
+
+.profile:hover img {
+	opacity: 1;
+
+}
+
+.profile:hover .reward {
+	display: none;
+
+}
+
+.profile:hover .dead {
+	display: none;
+
+}
+
+.profile:hover p {
+	font-size: 1.2em;
+	top:initial;
+	bottom: -10px;
+}
+
+hr { 
+  display: block;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  margin-left: 5em;
+  margin-right: 5em;
+  border-style: inset;
+  border-width: 1px;
+  border-color: black;
+}
+
+.media-body h4{
+	max-height: 140px;
+	overflow-y: scroll;
+}
+
+.badge {
+	margin-right: 5vw;
+	margin-right: 5vw;
+}
+
+footer .card{
+
+	background-color: #1a1110;
+	color: white;
+}
+
+footer a{
+	margin-top: 30vw;
+	font-weight: bold;
+	color:white;
+
+}
+
+footer a:hover{
+	margin-top: 30px;
+	font-weight: bold;
+	color:white;
+	
+}
+
+.btn-facebook{color:#fff;background-color:#3b5998;border-color:rgba(0,0,0,0.2)}.btn-facebook:hover,.btn-facebook:focus,.btn-facebook:active,.btn-facebook.active,.open .dropdown-toggle.btn-facebook{color:#fff;background-color:#30487b;border-color:rgba(0,0,0,0.2)}
+.btn-facebook:active,.btn-facebook.active,.open .dropdown-toggle.btn-facebook{background-image:none}
+.btn-facebook.disabled,.btn-facebook[disabled],fieldset[disabled] .btn-facebook,.btn-facebook.disabled:hover,.btn-facebook[disabled]:hover,fieldset[disabled] .btn-facebook:hover,.btn-facebook.disabled:focus,.btn-facebook[disabled]:focus,fieldset[disabled] .btn-facebook:focus,.btn-facebook.disabled:active,.btn-facebook[disabled]:active,fieldset[disabled] .btn-facebook:active,.btn-facebook.disabled.active,.btn-facebook[disabled].active,fieldset[disabled] .btn-facebook.active{background-color:#3b5998;border-color:rgba(0,0,0,0.2)}
+
+.carousel-inner{
+
+	height:400px;
+	
+	text-align: center;
+}
+
+.fellows{
+	width: 20rem;
+}
+
