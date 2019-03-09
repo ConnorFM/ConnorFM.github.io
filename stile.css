@@ -1,80 +1,92 @@
-
-.profile {
-	
-	font-family : Arial, sans-serif;
-	position: relative;
-	
-}
-
-.profile  img {
-	opacity: 0.6;
+.barre{
+	color: #fff!important;
 }
 
 
-.profile p {
-	color: white;
-	position: absolute;
-	top: 100px;
-	font-size: 2.8em;
-	text-align: center;
-	font-weight: normal;
-	width: 100%;
 
+
+.card:hover .gandalf {
+  visibility: visible;
+  filter: none;
+  opacity: 1;
 }
 
-.reward {
-	position: absolute;
-	top: 10px;
-	left: 5%;
-	margin: auto;
-	width:90%;
-	text-align: center;
-	background: white;
-	border-radius: 5px;
-	opacity: 0.8;
-	font-size: 1.5em;
-	padding: 10px 25px;
-	box-sizing: border-box;
-
+.text {
+  position: absolute;
+  top: 0;
+  color: black;
+  font-size: 25px;
+  background-color: white;
+  opacity: 0.7;
+  border: 10px solid white;
+  border-radius: 5px;
+  margin-top: 1%;
+  width: 90%;
 }
 
 .dead {
-	position: absolute;
-  	top: 50%;
-  	left: 50%;
-  	transform: translate(-50%, -50%);
-	margin: auto;
-	width:90%;
-	text-align: center;
-	border-radius: 5px;
-	opacity: 0.8;
-	font-size: 3em;
-	padding: 10px 25px;
-	
+  position: absolute;
+  top: 0;
+  color: black;
+  font-size: 50px;
+  width: 90%;
+  opacity: 0.7;
+  margin-top: 5%;
+}
+
+.text2 {
+  position: absolute;
+  top: 40%;
+  color: white;
+  width: 90%;
+  font-size: 75px;
+}
+
+.btn_hate{
+  border-radius: 0px;
 }
 
 
-
-
-.profile:hover img {
-	opacity: 1;
-
+.text3 {
+  position: absolute;
+  top: 40%;
+  color: white;
+  width: 90%;
+  font-size: 75px;
 }
 
-.profile:hover .reward {
-	display: none;
 
+.deadbar {
+  text-decoration: line-through;
+  color: #fe661d;
 }
 
-.profile:hover .dead {
-	display: none;
-
+.gimli {
+  color: white;
 }
 
-.profile:hover p {
-	font-size: 1.2em;
-	top:initial;
-	bottom: -10px;
+.card:hover .text {
+  opacity: 0;
+}
+
+.card:hover .text-bis {
+  opacity: 0;
+}
+
+.card:hover .text2 {
+  opacity: 0;
+}
+
+.card:hover .text3 {
+  opacity: 0;
+}
+
+.montant {
+  color: orange;
+}
+
+.gandalf {
+  filter: invert(0.4);
 }
 
 hr { 
@@ -88,7 +100,7 @@ hr {
   border-color: black;
 }
 
-.media-body h4{
+.media-body h5{
 	max-height: 140px;
 	overflow-y: scroll;
 }
@@ -122,14 +134,126 @@ footer a:hover{
 .btn-facebook:active,.btn-facebook.active,.open .dropdown-toggle.btn-facebook{background-image:none}
 .btn-facebook.disabled,.btn-facebook[disabled],fieldset[disabled] .btn-facebook,.btn-facebook.disabled:hover,.btn-facebook[disabled]:hover,fieldset[disabled] .btn-facebook:hover,.btn-facebook.disabled:focus,.btn-facebook[disabled]:focus,fieldset[disabled] .btn-facebook:focus,.btn-facebook.disabled:active,.btn-facebook[disabled]:active,fieldset[disabled] .btn-facebook:active,.btn-facebook.disabled.active,.btn-facebook[disabled].active,fieldset[disabled] .btn-facebook.active{background-color:#3b5998;border-color:rgba(0,0,0,0.2)}
 
-.carousel-inner{
-
-	height:400px;
-	
-	text-align: center;
-}
 
 .fellows{
 	width: 20rem;
 }
 
+
+.nav-bg-orange{
+	background-color: #fe661d!important;
+}
+
+.bg-light{
+	background-color: #fe661d!important;
+	
+}
+
+.font-nav {
+  font-family: 'aniron-title';
+}
+
+@font-face {
+  font-family: 'aniron-title';
+  src: url('fonts/title/anicm___.ttf');
+}
+
+.font-pills {
+  font-family: 'aniron-title';
+}
+
+@font-face {
+  font-family: 'partybusiness';
+  src: url('fonts/text/partybusiness.ttf');
+}
+
+.font-text {
+  font-family: 'partybusiness';
+}
+
+@font-face {
+  font-family: 'annatar';
+  src: url('fonts/symboles/tngan.ttf');
+}
+
+.font-symboles {
+  font-family: 'annatar';
+}
+
+.nav-orange {
+  color: #fe661d;
+}
+
+.gimli {
+  color: white;
+}
+
+.card:hover .text {
+  opacity: 0;
+}
+
+.card:hover .text-bis {
+  opacity: 0;
+}
+
+.card:hover .text2 {
+  opacity: 0;
+}
+
+.card:hover .text3 {
+  opacity: 0;
+}
+
+.montant {
+  color: orange;
+}
+
+.gandalf {
+  filter: invert(0.4);
+}
+
+.my_links_2 {
+  font-size: 40px;
+}
+
+.black-card {
+  background-color: black;
+}
+
+.size-20{
+  font-size: 20px;
+}
+
+.size-25{
+  font-size: 25px;
+}
+
+
+.custom-bg-dark {
+  background-image: url('ressources/bg_dark.png');
+  background-size: 100% 100%;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+.custom-bg-light {
+  background-image: url('ressources/bg_light.png');
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+.custom-card {
+  border: solid 4px black;
+  margin-left: 10px;
+  border-radius: 0px;
+   !important
+}
+
+#reward{
+	color: #fff;
+}
+
+.about{
+	color: #fff;
+}
